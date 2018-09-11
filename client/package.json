@@ -1,0 +1,27 @@
+{
+  "name": "graphql-exploration-client",
+  "version": "0.1.0",
+  "description": "A simple GraphQL client using dillonkearns/elm-graphql",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfeineis/graphql-exploration.git"
+  },
+  "keywords": [
+    "graphql",
+    "elm"
+  ],
+  "author": "Martin Feineis",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/mfeineis/graphql-exploration/issues"
+  },
+  "homepage": "https://github.com/mfeineis/graphql-exploration#readme",
+  "devDependencies": {
+    "@dillonkearns/elm-graphql": "^1.0.4",
+    "elm-test": "^0.19.0-beta8"
+  }
+}

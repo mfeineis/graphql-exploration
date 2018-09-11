@@ -1,0 +1,32 @@
+{
+  "name": "graphql-exploration-server",
+  "version": "0.1.0",
+  "description": "A simple GraphQL server using ApolloServer",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "nodemon --watch main.js node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfeineis/graphql-exploration.git"
+  },
+  "keywords": [
+    "graphql",
+    "apollo"
+  ],
+  "author": "Martin Feineis",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/mfeineis/graphql-exploration/issues"
+  },
+  "homepage": "https://github.com/mfeineis/graphql-exploration#readme",
+  "dependencies": {
+    "apollo-server-koa": "^2.0.6",
+    "graphql": "^14.0.2",
+    "koa": "^2.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
